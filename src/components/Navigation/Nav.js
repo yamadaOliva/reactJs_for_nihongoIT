@@ -1,5 +1,5 @@
 import React from "react";
-import "./Nav.scss";
+import "./Nav.css";
 import { NavLink } from "react-router-dom";
 export default function Nav(props) {
     return (
