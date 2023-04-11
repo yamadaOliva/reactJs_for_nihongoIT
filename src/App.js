@@ -1,5 +1,5 @@
 import React from 'react';
-import Todolist from './components/Todolist/Todolist';
+import Todo from './components/Todo/Todo';
 import Nav from './components/Navigation/Nav';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -17,7 +17,7 @@ function App() {
     </div>
     <Switch>
         <Route path="/" exact >
-            <Todolist />
+            <Todo />
         </Route>
         <Route path="/news">
             News
