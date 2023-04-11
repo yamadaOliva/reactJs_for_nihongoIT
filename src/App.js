@@ -1,5 +1,5 @@
 import React from 'react';
-import todolist from './components/todolist/todolist';
+import Todolist from './components/Todolist/Todolist';
 import Nav from './components/Navigation/Nav';
 import {ToastContainer} from 'react-toastify';
 import {
@@ -25,7 +25,7 @@ function App() {
             Contact 123123
         </Route>
         <Route path="/about">
-            About
+            <Todolist />
         </Route>
        
         <Route path="*">

@@ -1,8 +1,7 @@
+export default function Todolist(props) {
+    return (
+        <div className="container">
 
-export default function todolist(){
-    return(
-        <div>
-            <h1>Todo List</h1>
         </div>
-    )
+    );
 }
