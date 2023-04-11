@@ -2,6 +2,7 @@ import React from 'react';
 import Todolist from './components/Todolist/Todolist';
 import Nav from './components/Navigation/Nav';
 import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,18 +17,12 @@ function App() {
     </div>
     <Switch>
         <Route path="/" exact >
-            Home
+            <Todolist />
         </Route>
         <Route path="/news">
             News
         </Route>
-        <Route path="/contact">
-            Contact 123123
-        </Route>
-        <Route path="/about">
-            <Todolist />
-        </Route>
-       
+        
         <Route path="*">
             404
         </Route>
